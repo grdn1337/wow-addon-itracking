@@ -7,6 +7,12 @@ LibStub("AceEvent-3.0"):Embed(iTracking);
 
 local _G = _G;
 
+-------------------------------
+-- Registering with iLib
+-------------------------------
+
+LibStub("iLib"):Register(AddonName);
+
 -----------------------------
 -- Setting up the LDB
 -----------------------------
