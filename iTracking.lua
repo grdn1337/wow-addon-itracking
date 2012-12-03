@@ -23,7 +23,7 @@ iTracking.ldb = LibStub("LibDataBroker-1.1"):NewDataObject(AddonName, {
 });
 
 iTracking.ldb.OnClick = function(anchor, button)
-	if( button == "RightButton" and not _G.IsModifierKeyDown() ) then
+	if( (button == "RightButton" or button == "LeftButton") and not _G.IsModifierKeyDown() ) then
 		_G.ToggleDropDownMenu(1, nil, _G.MiniMapTrackingDropDown, anchor, 0, 0);
 	end
 end
