@@ -1,6 +1,6 @@
-## Interface: 50200
+## Interface: 50400
 ## Title: i|cffffffaaTracking|r
-## Version: 1.8.4
+## Version: 5.4-r1
 ## Notes: LDB plugin replacement for minimap tracking.
 ## Author: grdn
 ## OptionalDeps: Ace3, iLib
