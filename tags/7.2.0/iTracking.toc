@@ -1,0 +1,16 @@
+## Interface: 70200
+## Title: i|cffffffaaTracking|r
+## Version: 7.2.0
+## Notes: LDB plugin replacement for minimap tracking.
+## Author: grdn
+## OptionalDeps: Ace3, iLib
+
+# Libraries
+Libs\LibStub\Libstub.lua
+Libs\CallbackHandler-1.0\CallbackHandler-1.0.xml
+Libs\libdatabroker-1-1\LibDataBroker-1.1.lua
+Libs\AceEvent-3.0\AceEvent-3.0.xml
+Libs\iLib\lib.xml
+
+# Main
+iTracking.lua
