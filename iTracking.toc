@@ -1,6 +1,6 @@
-## Interface: 80000
+## Interface: 80100
 ## Title: i|cffffffaaTracking|r
-## Version: 8.0.3
+## Version: 8.1.0
 ## Notes: LDB plugin replacement for minimap tracking.
 ## Author: grdn
 ## OptionalDeps: Ace3, iLib
